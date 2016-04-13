@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<document filename="Sales Order.pdf">
+  <template title="Sales Order" author="OpenERP S.A.(sales@openerp.com)" allowSplitting="20">
+    <pageTemplate id="first">
+      <frame id="first" x1="15.0" y1="42.0" width="539" height="758"/>
+   
+    <stylesheet> 
+          <paraStyle name="main_footer" fontSize="10.0" alignment="LEFT"/>
+          <paraStyle name="sub_footer" fontSize="6.0" alignment="LEFT"/>
+          <blockTableStyle id="Table_Footer" >
+               <blockAlignment value="LEFT"/>
+               <blockValign value="TOP"/>
+               <lineStyle kind="GRID" colorName="#000000"/>
+           </blockTableStyle>
+      </stylesheet>
+      <pageGraphics>
+         
+         
+         
+         <lines>0.55cm 30.6cm 19.55cm 30.6cm</lines>
+         <place x="8.5cm" y="22.5cm" height="1.5cm" width="7.0cm">
+             <para style="main_header" fontSize="20.0"><b>AIRASIA</b></para>
+         </place>
+         	
+         
+         
+       
+        
+      </pageGraphics>
+     </pageTemplate>
+  </template>
+<stylesheet>
+     
+      
+      <blockTableStyle id="Table8">
+		<lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+		<lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+		<lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="-1,0"/>
+		<lineStyle kind="LINEBELOW" colorName="#000000" start="0,0" stop="-1,0"/>
+		<lineStyle kind="LINEBELOW" colorName="#000000" start="0,1" stop="-1,1"/>
+		<lineStyle kind="LINEBELOW" colorName="#000000" start="0,2" stop="-1,2"/>
+		<lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,-1"/>
+		
+      </blockTableStyle>
+      <blockTableStyle id="Table12">
+      		<lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,-1"/>
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="2,0" stop="2,-1"/>
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="3,0" stop="3,-1"/>
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="4,0" stop="4,-1"/>
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="5,0" stop="5,-1"/>
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="6,0" stop="6,-1"/>
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="7,0" stop="7,-1"/>
+			<lineStyle kind="LINEBELOW" colorName="#000000" start="0,0" stop="-1,0"/>
+			
+		
+      </blockTableStyle>
+      <blockTableStyle id="Table9">
+		
+      </blockTableStyle>
+      <blockTableStyle id="Table10">
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+			<lineStyle kind="LINEBELOW" colorName="#000000" start="0,1" stop="-1,1"/>
+			<lineStyle kind="LINEBELOW" colorName="#000000" start="0,3" stop="-1,3"/>
+      </blockTableStyle>
+       <blockTableStyle id="Table11">
+			<lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+			<lineStyle kind="LINEBELOW" colorName="#000000" start="0,1" stop="-1,1"/>
+			<lineStyle kind="LINEBELOW" colorName="#000000" start="0,3" stop="-1,3"/>
+			
+      </blockTableStyle>
+</stylesheet>
+<story>
+	
+</story>
+</document>

@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<document filename="Sales Order.pdf">
+  <template title="Sales Order" author="OpenERP S.A.(sales@openerp.com)" allowSplitting="20">
+    <pageTemplate id="first">
+      <frame id="first" x1="15.0" y1="42.0" width="539" height="758"/>
+    </pageTemplate>
+  </template>
+<stylesheet>
+      <blockTableStyle id="Table7">
+      <blockAlignment value="CENTRE"/>
+      <blockValign value="TOP"/>
+      </blockTableStyle>
+      
+      <blockTableStyle id="Table8">
+      	<lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      	<lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+      	<lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,-1"/>
+      	<lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="-1,0"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="-1,-1"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,0" stop="-1,0"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,1" stop="-1,1"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,2" stop="-1,2"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,3" stop="-1,3"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,4" stop="-1,4"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,5" stop="-1,5"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,6" stop="-1,6"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,7" stop="-1,7"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,8" stop="-1,8"/>
+      	<lineStyle kind="LINEBELOW" colorName="#000000" start="0,9" stop="-1,9"/>
+      </blockTableStyle>
+</stylesheet>
+<story>
+	 <blockTable colWidths="539" style="Table7">
+     	<tr>
+   			<td>
+   				<para style="terp_default_8" alignment="CENTER"><b>SALARY SLIP</b></para>
+        	</td>
+   		</tr>	
+ 	</blockTable>
+ 	<para style="terp_default_8">[[repeatIn(objects,'o')]]</para>
+ 	<blockTable colWidths="270,269" style="Table8">
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>Date :</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>[[o.date]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>Designation :</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8"  alignment="CENTER"><b>[[o.emp_desig]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>Department :</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>[[o.emp_dep]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>Employee Id:</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8"  alignment="CENTER"><b>[[o.emp_id.emp_id]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>Basic Salary:</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>[[o.emp_basic]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>HRA:</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>[[o.emp_hra]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>TA:</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8"  alignment="CENTER"><b>[[o.emp_ta]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>DA:</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8"  alignment="CENTER"><b>[[o.emp_da]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>PF:</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8"  alignment="CENTER"><b>[[o.emp_pf]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>IT:</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8"  alignment="CENTER"><b>[[o.emp_it]]</b></para>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>
+ 				<para style="terp_default_8" alignment="CENTER"><b>NET:</b></para>
+ 			</td>
+ 			<td>
+ 				<para style="terp_default_8"  alignment="CENTER"><b>[[o.emp_net]]</b></para>
+ 			</td>
+ 		</tr>
+ 		
+ 	</blockTable>
+</story>
+</document>

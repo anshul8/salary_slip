@@ -1,0 +1,13 @@
+<?xml version="1.0"?> 
+<openerp> 
+        <data> 
+                <report 
+                        id="salary_id" 
+                        string="Print Slip" 
+                        model="emp2" 
+                        name="salary_repo" 
+                        rml="verts_salary_slip/report/salary_report.rml" 
+                        auto="False" 
+                        header="False"/> 
+        </data> 
+</openerp>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="group_menu_imei" model="res.groups">
+        	<field name="name">ANSHUL</field>
+        </record>
+        
+    </data>
+</openerp>

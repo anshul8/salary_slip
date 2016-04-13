@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    <!-- emp1 -->
+       <record id="emp1_tree" model="ir.ui.view">
+            <field name="name">emp1.tree</field>
+            <field name="model">emp1</field>
+            <field name="arch" type="xml">
+                <tree string="Employee Detail">
+                	<field name="xls"/>
+                	<field name="file"/>
+                	<field name="emp_id"/>
+                    <field name="emp_name"/>
+                    <field name="emp_desig"/>
+                    <field name="emp_dep"/>
+                    <field name="emp_basic"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+      
+        <record id="emp1_form" model="ir.ui.view">
+            <field name="name">emp1.form</field>
+            <field name="model">emp1</field>
+            <field name="arch" type="xml">
+                <form string="Employee Details" version="7.0">
+                   <header>
+                   		<button name="write_draft" states="draft" string="Draft" type="object" class="oe_highlight"/>
+                        <button name="write_confirm" states="confirm" string="Confirm" type="object" class="oe_highlight"/>
+                  		<field name="state" widget="statusbar" statusbar_visible="draft,confirm" />
+                        <button name="import_excel" string="Import Excel" class="oe_highlight" type="object"/>
+                        <button name="write_excel" string="Write Excel" class="oe_highlight" type="object"/>
+                        
+                </header>
+                
+                    <sheet>
+                    	<group col="4" colspan="4">
+                    	   <field name="xls"/>
+                    	   <field name="file"/>
+                           <field name="emp_id"/>
+                           <field name="emp_name"/>
+                           <field name="emp_desig"/>
+                           <field name="emp_dep"/>
+                           <field name="emp_basic"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_emp1" model="ir.actions.act_window">
+            <field name="name">Employee Details</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">emp1</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <menuitem id="menu_emp1" name="Employee Salary" sequence="2"/>
+        <menuitem id="sub_menu_emp1" name="Salary" parent="menu_emp1"/>
+        <menuitem id="menu_create_emp1" name="Salary" parent="sub_menu_emp1" action="action_emp1"/>
+ 
+ 		<record id="emp2_tree" model="ir.ui.view">
+            <field name="name">emp2.tree</field>
+            <field name="model">emp2</field>
+            <field name="arch" type="xml">
+                <tree string="Employee Detail">
+                	<field name="date"/>
+                	<field name="emp_id"/>
+                    <field name="emp_name"/>
+                    <field name="emp_desig"/>
+                    <field name="emp_dep"/>
+                    <field name="emp_basic"/>
+                    <field name="emp_hra"/>
+                    <field name="emp_ta"/>
+                    <field name="emp_da"/>
+                    <field name="emp_pf"/>
+                    <field name="emp_it"/>
+                    <field name="emp_net"/>
+                </tree>
+            </field>
+        </record>
+        <record id="emp2_form" model="ir.ui.view">
+            <field name="name">emp2.form</field>
+            <field name="model">emp2</field>
+            <field name="arch" type="xml">
+                <form string="Employee Details" version="7.0">
+                    <sheet>
+                    	<group col="4" colspan="4">
+                    	   <field name="date"/>
+                           <field name="emp_id" on_change="onchange_emp_id(emp_id)"/>
+                           <field name="emp_name"/>
+                           <field name="emp_desig"/>
+                           <field name="emp_dep"/>
+                           <field name="emp_basic"/>
+                           <field name="emp_hra"/>
+                           <field name="emp_ta"/>
+                    	   <field name="emp_da"/>
+                    	   <field name="emp_pf"/>
+                    	   <field name="emp_it"/>
+                    	   <field name="emp_net"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_emp2" model="ir.actions.act_window">
+            <field name="name">Employee Details</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">emp2</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <record id="emp3_tree" model="ir.ui.view">
+            <field name="name">emp3.tree</field>
+            <field name="model">emp3</field>
+            <field name="arch" type="xml">
+                <tree string="Employee Detail">
+                	<field name="xy"/>
+                	<field name="total"/>
+                </tree>
+            </field>
+        </record>
+        <record id="emp3_form" model="ir.ui.view">
+            <field name="name">emp3.form</field>
+            <field name="model">emp3</field>
+            <field name="arch" type="xml">
+                <form string="Employee Details" version="7.0">
+                    <sheet>
+                    	<group col="2">
+                    		<field name="total"/>
+                    	</group>
+                    	<group col="4" colspan="4">
+                    	   <field name="xy">
+                    	   		<tree>
+                    	   			   <field name="emp_name"/>
+                    	   			   <field name="emp_basic"/>
+			                           <field name="emp_hra"/>
+			                           <field name="emp_ta"/>
+			                    	   <field name="emp_da"/>
+			                    	   <field name="emp_pf"/>
+			                    	   <field name="emp_it"/>
+			                    	   <field name="emp_net"/>
+                    	   		</tree>
+                    	   </field>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_emp3" model="ir.actions.act_window">
+            <field name="name">Employee Details</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">emp3</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <menuitem id="menu_emp2" name="Employee Salary" sequence="3"/>
+        <menuitem id="sub_menu_emp2" name="Salary" parent="menu_emp2"/>
+        <menuitem id="menu_create_emp2" name="Salary" parent="sub_menu_emp2" action="action_emp2"/> 
+        <menuitem id="menu_create_emp3" name="Salary" parent="sub_menu_emp2" action="action_emp3"/> 
+                 
+    </data>
+</openerp>
