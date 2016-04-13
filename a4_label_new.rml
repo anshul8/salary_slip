@@ -1,0 +1,830 @@
+<?xml version="1.0"?>
+<document filename="A4.pdf">
+  <template title="Purchase Order" author="OpenERP S.A.(sales@openerp.com)" allowSplitting="20">
+    <pageTemplate id="first">
+      <frame id="first" x1="25.0" y1="42.0" width="540" height="785"/>
+    </pageTemplate>
+  </template>
+  <stylesheet>
+    <blockTableStyle id="Standard_Outline">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table1">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    
+   
+    <blockTableStyle id="Table2">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <blockBackground colorName="#0099FF" start="0,0" stop="0,0"/>
+      <blockBackground colorName="#FF3300" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,0" stop="1,0"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="-1,0"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,0"/>
+    </blockTableStyle>
+    
+    
+     <blockTableStyle id="Table3">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <blockBackground colorName="#0099FF" start="0,0" stop="0,0"/>
+      <blockBackground colorName="#FF3300" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,0" stop="1,0"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="-1,0"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,0"/>
+    </blockTableStyle>
+   
+   <blockTableStyle id="Table4">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="0,0" stop="1,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#E6E6E6" start="0,3" stop="0,3"/>
+    </blockTableStyle>
+    
+    
+     <blockTableStyle id="Table5">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <blockBackground colorName="#0099FF" start="0,0" stop="0,0"/>
+      <blockBackground colorName="#FF3300" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="-1,0"/>
+       <lineStyle kind="LINEBELOW" colorName="#000000" start="0,0" stop="-1,0"/>
+       <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,0"/>
+       <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,0"/>
+    </blockTableStyle>
+ 
+   
+    <blockTableStyle id="Table6">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <blockBackground colorName="#F5BCA9" start="0,0" stop="2,0"/>
+       <lineStyle kind="LINEABOVE" colorName="#E6E6E6" start="0,0" stop="-1,0"/>
+       <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="0,0" stop="-1,0"/>
+       <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="0,0" stop="-1,-1"/>
+       <lineStyle kind="LINEAFTER" colorName="#E6E6E6" start="2,0" stop="2,-1"/>
+    </blockTableStyle>
+   
+   
+   <blockTableStyle id="Table7">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+       </blockTableStyle>
+       
+       <blockTableStyle id="Table8">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <blockBackground colorName="#0099FF" start="0,0" stop="0,0"/>
+      <blockBackground colorName="#FF3300" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="-1,0"/>
+       <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="0,0" stop="-1,1"/>
+       <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="0,0" stop="0,1"/>
+       <lineStyle kind="LINEAFTER" colorName="#E6E6E6" start="1,0" stop="1,0"/>
+      </blockTableStyle>
+    
+    
+     <blockTableStyle id="Table9">
+      <blockBackground colorName="#0099FF" start="0,0" stop="0,0"/>
+      <blockBackground colorName="#FF3300" start="1,0" stop="1,0"/>
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+       <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="-1,0"/>
+       <lineStyle kind="LINEBELOW" colorName="#000000" start="0,0" stop="-1,0"/>
+       <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,0"/>
+       <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,0"/>
+     </blockTableStyle>
+    
+    
+    <blockTableStyle id="Table10">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+       <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="0,0" stop="-1,1"/>
+       <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="0,0" stop="-1,-1"/>
+     </blockTableStyle>
+     
+     
+     <blockTableStyle id="Table11">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+       <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="0,0" stop="0,-1"/>
+       <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="0,0" stop="0,0"/>
+     </blockTableStyle>
+    
+    <blockTableStyle id="Table12">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+       <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="1,0" stop="1,0"/>
+       <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="1,0" stop="1,0"/>
+        <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="3,0" stop="3,0"/>
+       <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="3,0" stop="3,0"/>
+     </blockTableStyle>
+    
+     <blockTableStyle id="Table13">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <blockBackground colorName="#FF3300" start="0,0" stop="0,0"/>
+       <lineStyle kind="LINEBELOW" colorName="#000000" start="0,0" stop="1,0"/>
+       <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="1,0"/>
+       <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="1,0"/>
+       <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,0"/>
+        <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="0,1" stop="0,1"/>
+       <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="0,1" stop="1,1"/>
+     </blockTableStyle>
+     
+      <blockTableStyle id="Table14">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+       <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="1,0"/>
+        <lineStyle kind="LINEBELOW" colorName="#E6E6E6" start="1,0" stop="1,-1"/>
+       <lineStyle kind="LINEBEFORE" colorName="#E6E6E6" start="1,0" stop="1,-1"/>
+     </blockTableStyle>
+   
+    <blockTableStyle id="Table15">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+       <blockBackground colorName="#0099FF" start="0,0" stop="0,0"/>
+     </blockTableStyle>
+   
+    <blockTableStyle id="Table51">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    <lineStyle kind="LINEAFTER" colorName="#0099FF" start="0,0" stop="0,-1"/>
+    <lineStyle kind="LINEAFTER" colorName="#0099FF" start="1,0" stop="1,-1"/>
+    </blockTableStyle>
+    <initialize>
+      <paraStyle name="all" alignment="justify"/>
+    </initialize>
+    <paraStyle name="terp_header" fontSize="15.0" leading="19" alignment="LEFT" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_default_8" fontSize="8.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_7" fontSize="4" leading="0" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_Bold_9" fontSize="10.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_9" fontSize="6.0" leading="5" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_packages" fontSize="5.0" leading="5" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_5" fontSize="5.0" leading="5" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_9_centre" fontSize="5.0" leading="5" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_92" fontSize="5.0" leading="5" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_9_data" fontSize="7.0" leading="5" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+     <paraStyle name="terp_default_9_data_line" fontSize="7.0" leading="-20" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_9_data_new" fontSize="7.0" leading="8" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_9_data_origin" fontSize="20.0" leading="5" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_9_data1" fontSize="7.0" leading="7" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_91" fontSize="7.0" leading="6.0" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_tblheader_General_Centre" fontSize="9.0" leading="8" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_Centre_8" fontSize="4.0" leading="10" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_tblheader_Details" fontSize="9.0" leading="11" alignment="LEFT" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_tblheader_Details_Centre" fontSize="9.0" leading="11" alignment="CENTER" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_tblheader_Details_Right" fontSize="9.0" leading="1" alignment="RIGHT" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_default_Centre_9" fontSize="9.0" leading="11" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_Right_9" fontSize="5.0" leading="5" alignment="RIGHT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_1" fontSize="2.0" leading="3" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_Right_9_Bold" fontSize="9.0" leading="11" alignment="RIGHT" spaceBefore="0.0" spaceAfter="0.0"/>
+    
+    
+  </stylesheet>
+  <story>
+  <para style="terp_default_8">[[repeatIn(objects,'o')]]</para>
+  <para style="terp_default_8">[[ setLang(o.partner_id.lang) ]]</para>
+  <section>
+  <para style="terp_default_8"><font color="White">[[repeatIn(no_of_pages(o.order_line),'page')]]</font></para>
+  <section>
+  <para style="terp_default_8"><font color="White">[[ page ]]</font></para>
+  <blockTable colWidths="168.0,207.0,175.0" style="Table51">
+      			<tr>
+        			<td>
+        	          <blockTable colWidths="68,100" style="Table1">
+                       <tr>
+                       <td>
+	                      <image x="0.0cm" y="0.0cm" width="52.0" height="50" >[[ company and company.logo or removeParentNode('image') ]]</image>
+    	               </td>
+    	               <td>
+                         <para style="terp_default_9_data1"><b> [[company and company.name]]</b></para> 
+                         
+                         <para style="terp_default_9_data1"> [[company and company.street ]]</para> 
+                         <para style="terp_default_9_data1"> [[company and company.street2 ]]</para>  
+                         <para style="terp_default_9_data1"> [[company and company.city ]]-[[company and company.state_id and company.state_id.name ]],[[company and company.country_id and company.country_id.name ]],[[company and company.zip ]]</para>  
+                         <para style="terp_default_9_data1">Tel:[[company and company.phone ]]</para> 
+                         <para style="terp_default_9_data1">Fax:[[company and company.fax ]]</para>
+                       </td>
+                       </tr>
+                     </blockTable>
+                     <spacer length="20"/>
+        			 <blockTable colWidths="20.0,135.0" style="Table2">
+		        			    <tr>
+		        			    <td><para style="terp_default_9">1.</para></td>
+		        			    <td>
+		        			      <para style="terp_default_9"><b>PAYMENT DETAILS</b></para>
+		        			    </td>
+		        			    </tr>
+		                        <tr>
+		                        <td><para style="terp_default_9"></para></td>
+		        				<td> <blockTable colWidths="34.0,34.0,34.0,34.0" style="Table1">
+		        				    <tr>
+		        				     <td>
+		        				      <illustration><rect x="-0.01cm" y="-0.18cm" width="0.18cm" height="0.18cm" fill="no" stroke="yes"/></illustration>
+		          			            <para style="terp_default_5">[[ (o.customer_payment_mode == 'cash' and '&#10004;')]] </para>
+		        				     </td>
+		        				     <td>
+		        				       <illustration><rect x="-.05cm" y="-0.18cm" width="0.18 cm" height="0.18cm" fill="no" stroke="yes"/></illustration>
+		        				       <para style="terp_default_5">[[ (o.customer_payment_mode == 'post_paid' and '&#10004;')]] </para>
+		        				     </td>
+		        			          <td>
+		        			          <illustration><rect x="-.06cm" y="-0.18cm" width="0.18 cm" height="0.18cm" fill="no" stroke="yes"/></illustration>
+		        			          <para style="terp_default_5">[[ (o.customer_payment_mode == 'cod' and '&#10004;')]] </para>
+		        				     </td>
+		        				      <td>
+		        			          <illustration><rect x="-.04cm" y="-0.18cm" width="0.18 cm" height="0.18cm" fill="no" stroke="yes"/></illustration>
+		        			          <para style="terp_default_5">[[(o.customer_payment_mode == 'credit_card' and '&#10004;')]] </para>
+		        				     </td>
+		        				   </tr>
+		        		          </blockTable>
+		        		          <blockTable colWidths="34.0,34.0,34.0,34.0" style="Table1">
+		        		          <tr>
+		        		          <td>
+		        		            <para style="terp_default_5"><b>Cash</b> </para>
+		        		          </td>
+		        		          <td>
+		        		            <para style="terp_default_5"><b>Invoice</b> </para>
+		        		          </td>
+		        		          <td>
+		        		            <para style="terp_default_5"><b>COD </b></para>
+		        		          </td>
+		        		          <td>
+		        		            <para style="terp_default_5"><b>Credit Card</b> </para>
+		        		          </td>
+		        		          </tr>
+		        		          </blockTable>
+		        		          </td>
+		        		          </tr>
+		        	</blockTable>
+		        	
+        			<spacer length="10"/>
+        			<blockTable colWidths="20.0,134.0"  style="Table3">
+        			    <tr>
+        			       <td><para style="terp_default_9">2.</para></td>
+		        		   <td><para style="terp_default_9"><b>FROM (SHIPPER)</b></para></td>
+		        	    </tr>
+		           </blockTable>
+		           <blockTable colWidths="54.0,100.0"   rowHeights="0.6cm,0.6cm,2.0cm,0.9cm" style="Table4">
+		        	     <tr>
+        			       <td><para style="terp_default_9"><b>Sender Company</b></para></td>
+		        		   <td><para style="terp_default_9">[[o.sender_company]]</para></td>
+		        	    </tr>
+		        	     <tr>
+        			       <td><para style="terp_default_9"><b>Name</b></para></td>
+		        		   <td><para style="terp_default_9">[[ o.partner_id.name]]</para></td>
+		        	    </tr>
+		        	     <tr>
+        			       <td><para style="terp_default_9"><b>Address</b></para></td>
+		        		   <td><para style="terp_default_9">[[ o.sender_street ]]</para>
+		        		       <para style="terp_default_9">[[ o.sender_street2 ]]</para>
+		        		       <para style="terp_default_9">[[  (o.sender_city and o.sender_city.name) ]]</para>
+		        		       <para style="terp_default_9">[[ (o.sender_state_id and o.sender_state_id.name) ]]</para></td>
+		        	    </tr> 
+                        <tr>
+		        		   <td><para style="terp_default_9"><b>Post/Zip Code</b></para>
+		        		   <para style="terp_default_9">[[(o.product_type in ['pp','cp','ep','cb','docs'] and o.sender_zip or '')  ]]</para></td>
+		        		   <td><para style="terp_default_9"><b>Contact Number</b></para>
+		        		   <para style="terp_default_9">[[(o.product_type in ['pp','cp','ep','cb','docs'] and o.sender_phone or '') ]]</para>
+		        	       </td>
+		        	    </tr>        	    
+             		</blockTable>
+             		<spacer length="10"/>
+             		<blockTable colWidths="20.0,134.0"  style="Table3">
+        			    <tr>
+        			       <td><para style="terp_default_9">3.</para></td>
+		        		   <td><para style="terp_default_9"><b>TO (RECEIVER)</b></para></td>
+		        	    </tr>
+		           </blockTable>
+		           
+		           
+		           <blockTable colWidths="54.0,100.0"   rowHeights="0.6cm,0.6cm,2.0cm,0.9cm" style="Table4">
+		        	     <tr>
+        			       <td><para style="terp_default_9"><b>Recipient Company</b></para></td>
+		        		   <td><para style="terp_default_9">[[o.rec_comp_name]]</para></td>
+		        	    </tr>
+		        	     <tr>
+        			       <td><para style="terp_default_9"><b>Name</b></para></td>
+		        		   <td><para style="terp_default_9">[[ o.receiver or '']]</para></td>
+		        	    </tr>
+		        	     <tr>
+        			       <td><para style="terp_default_9"><b>Address</b></para></td>
+		        		   <td><para style="terp_default_9">[[ o.receiver_street or '' ]]</para>
+		        		    <para style="terp_default_9">[[ o.receiver_street2 or '']]</para>
+		        		    <para style="terp_default_9">[[ o.receiver_city.name or '']]</para>
+        			        <para style="terp_default_9">[[ o.receiver_state_id.name or '']]</para>
+		        		    </td>
+		        	    </tr> 
+                        <tr>
+		        		   <td><para style="terp_default_9"><b>Post/Zip Code</b></para>
+		        		      <para style="terp_default_9">[[o.receiver_zip or '' ]]</para></td>
+		        		   <td><para style="terp_default_9"><b>Contact Number</b></para>
+		        		      <para style="terp_default_9">[[ o.receiver_mobile or '']]</para></td>
+		        	    </tr>        	    
+             		</blockTable>
+        		  </td>
+        			<td>
+        			 <blockTable colWidths="196.0" style="Table1">
+      		          <tr>
+        		        <td>
+          			        <para style="terp_tblheader_General_Centre"><b>BARCODE &amp; CONSIGNMENT NOTE #</b></para>
+        		        </td>
+        	          </tr>
+        	         <tr>
+        	          <td>
+                       <barCode code="Code128"  x="-120.0cm" y="0.0cm"  quiet="10"  style="barcode" fontName="Times-Roman" fontSize="10"  alignment="CENTER" barWidth="1.3" barHeight="40"  >[[o.awb_number or '']]</barCode>
+          	             <para style="terp_default_91">   [[ o.awb_number ]]  </para>
+          	             <spacer length="3"/>
+        		      </td>
+        	         </tr>
+        	         </blockTable>
+        			<spacer length="20"/>
+        				<blockTable colWidths="20.0,176.0" rowHeights="10.2" style="Table5">
+        				<tr>
+        				<td>
+        				  <para style="terp_default_9">4.</para>
+        				</td>
+        				<td>
+        				  <para style="terp_default_9"><b>SHIPMENT DETAILS</b> </para>
+        				</td>
+        				</tr>
+        				</blockTable>
+        				<blockTable colWidths="37.0,38.0,121.0" rowHeights="22.0,40.0" style="Table6">
+      					<tr>
+        				<td>
+          					<para style="terp_default_9">Total No. of</para>
+          					<para style="terp_default_9">Packages</para>
+          					 <spacer length="5"/>
+          					<para style="terp_default_9">[[ no_of_package(o.id) ]] </para>
+        				</td>
+        				<td>
+          					<para style="terp_default_packages"><b>Total Weight in kg</b></para>
+          					<spacer length="5"/>
+          					<para style="terp_default_9_data">[[ total_charge_weight(o.id) ]] </para>
+        				</td>
+        				<td>
+        			    <para style="terp_default_9_centre"><b>Dimensions in cm </b></para>
+          				<blockTable colWidths="23.0,32.0,34.0,35.0"   style="Table7">
+      						<tr>
+        						<td>
+          							<para style="terp_default_9">Pcs</para>
+        						</td>
+        						<td>
+          							<para style="terp_default_9">length</para>
+        						</td>
+        						<td>
+          							<para style="terp_default_9">width</para>
+        						</td>
+        						<td>
+          							<para style="terp_default_9">height</para>
+        						</td>
+        					</tr>
+        				</blockTable>
+        				 <section>
+        			    	<para style="terp_tblheader_Details">[[repeatIn(get_line_content(o.order_line,o.id),'line')]]</para>
+          					<blockTable colWidths="21.0,30.0,32.0,35.0" rowHeights="-5" style="Table1">
+      							<tr>
+        						<td>
+          							<para style="terp_default_9_data_line">[[formatLang(line.product_uom_qty, digits=0) ]]</para>
+        						</td>
+        						<td>
+          							<para style="terp_default_9_data_line">[[line.length]]</para>
+        						</td>
+        						<td>
+          							<para style="terp_default_9_data_line">[[ line.breadth]]</para>
+        						</td>
+        						<td>
+          							<para style="terp_default_9_data_line">[[line.height]]</para>
+        						</td>
+        						</tr>
+        					</blockTable>
+        				</section>
+        				</td>
+        				</tr>
+        				<tr></tr>
+        				</blockTable>
+        				<spacer length="10"/>
+        				<blockTable colWidths="20.0,174.0" rowHeights="10,50" style="Table8">
+        				<tr>
+        				   <td>
+	          				  <para style="terp_default_9"> 5.</para>
+	        				</td>
+	        				<td>
+	          				  <para style="terp_default_9"><b>FULL DESCRIPTION OF CONTENTS</b></para>
+	        				</td>
+        				</tr>
+      					<tr>
+      					   <td>
+	          				  <para style="terp_default_9"></para>
+	        				</td>
+	        				<td>
+		      				  <para style="terp_default_9_data_new">[[ get_line_desc(o.id) ]] </para>
+	        				</td>
+        				</tr>
+        			 </blockTable>
+        			<spacer length="10"/>
+        			   <blockTable colWidths="20,176.0"  style="Table9">
+      					<tr>
+        				<td>
+          				  <para style="terp_default_92">6.</para>
+        				</td>
+        				<td>
+          				  <para style="terp_default_92"><b>DUTIABLE SHIPMENTS ONLY(CUSTOMS REQUIREMENT)</b></para>
+          				   <para style="terp_default_92">Attach the original and two copies of a Commercial Invoice</para>
+        				</td>
+        				</tr>
+        			 </blockTable>
+        	
+        			<blockTable colWidths="98,98" rowHeights="20" style="Table10">
+      					<tr>
+        				<td>
+          				  <para style="terp_default_packages"><b>Shipper's VAT/GST Number </b> </para>
+          				  <para style="terp_default_9">[[ o.product_type == 'pp' and o.pickup_shipper_vat or (o.partner_id and o.partner_id.shipper_vat or '') ]] </para>
+        				</td>
+        				<td>
+          				  <para style="terp_default_packages"><b>Receiver's VAT/GST Number</b></para>
+          				  <para style="terp_default_9">[[o.receiver_vat_gst]]</para>
+        				</td>
+        				</tr>
+        			 </blockTable>
+        			 <blockTable colWidths="98,98" rowHeights="20" style="Table11">
+      					<tr>
+        				<td>
+          				  <para style="terp_default_packages"><b>Declared Value for Customs</b> </para>
+          				  <para style="terp_default_packages"><b>(as an commercial Invoice)</b> </para>
+          				  <para style="terp_default_9">[[o.declared_value_custom]] </para>
+        				</td>
+        				<td>
+          				  <para style="terp_default_packages"><b>Destination Duties/Taxes</b></para>
+          				  <blockTable colWidths="49,49"  style="Table1">
+          				  <tr>
+        				  <td>
+        				    <illustration><rect x="-0.05cm" y="-0.18cm" width="0.18cm" height="0.18cm" fill="no" stroke="yes"/></illustration>
+          				    <para style="terp_default_packages">[[(o.destination_duties== 'receiver' and '&#10004;')]]</para> 
+        				  </td>
+        				  <td>
+        				  <illustration><rect x="-0.01cm" y="-0.18cm" width="0.18cm" height="0.18cm" fill="no" stroke="yes"/></illustration>
+          				    <para style="terp_default_packages">[[(o.destination_duties== 'shipper' and '&#10004;')]]</para> 
+        				  </td>
+        				 </tr>
+        				 </blockTable>
+        				 <blockTable colWidths="49,49"  style="Table1">
+          				  <tr>
+        				  <td>
+          				    <para style="terp_default_packages"><b>Receiver</b></para> 
+        				  </td>
+        				  <td>
+          				    <para style="terp_default_packages"><b>Shipper</b></para> 
+        				  </td>
+        				 </tr>
+        				 </blockTable>
+        				 </td>
+        				</tr>
+        			 </blockTable>
+        			 <spacer length="10"/>
+        			   <blockTable colWidths="20,176.0"  style="Table9">
+      					<tr>
+        				<td>
+          				  <para style="terp_default_92">7.</para>
+        				</td>
+        				<td>
+          				  <para style="terp_default_92"><b>SHIPPER'S AGREEMENT(SIGNATURE REQUIRED)</b></para>
+        				</td>
+        				</tr>
+        			 </blockTable>
+        			 <blockTable colWidths="196.0"  style="Table12">
+        			 <tr>
+        		       <td>
+          				  <para style="terp_default_5"> I/We agree that  [[o.company_id.name]] BY AIRASIA's Terms and conditions of Carriage are all the terms of the contract between me /us and [[o.company_id.name]] BY AIRASIA and (1) such Terms &amp; Conditions Warsaw Convention limits and /or excludes [[o.company_id.name]] BY AIRASIA's and, where applicable, the liability for loss,damage or delay and (2) this shipment does not contain cash or dangerous goods.
+          				  </para>
+          				  <spacer length="10"/>
+          				   <blockTable colWidths="47.0,47.0,47.0,47.0"  style="Table12">
+          				   <tr>
+          				   <td>
+          				     <para style="terp_default_9"><b>Signature of recipient </b> </para>
+          				  </td>
+          				  <td><para style="terp_default_9">  </para></td>
+          				 <td> <para style="terp_default_Right_9"><b> Date/Time </b> </para></td>
+          				 <td><para style="terp_default_9">[[o.create_date]]</para></td>
+          				 </tr>
+          				 </blockTable>
+        				</td>
+        				</tr>
+        			 </blockTable>
+        		   </td>
+        			<td>
+        			<blockTable colWidths="81.0,81.0" rowHeights="50" style="Table1">
+        			 <tr>
+        		       <td>
+        		         <blockTable colWidths="75.0"  style="Table12">
+        		         <tr>
+        		         <td>
+          			       <para style="terp_default_9"></para>
+          			     </td>
+          			     </tr>
+          			     </blockTable>
+          			    </td>
+          			     <td>
+        		         <blockTable colWidths="75.0"  style="Table12">
+        		         <tr>
+        		         <td>
+          			       <para style="terp_default_9"></para>
+          			     </td>
+          			     </tr>
+          			     </blockTable>
+          			    </td>
+          			    </tr>
+          			    </blockTable>
+          			 <spacer length="20"/>
+        			 <blockTable colWidths="81.0,81.0"  style="Table1">
+        			 <tr>
+        		       <td>
+        		         <blockTable colWidths="75.0" rowHeights="20,30" style="Table13">
+        		         <tr>
+        		         <td>
+          			       <para style="terp_default_9"><b>ORIGIN CODE</b></para>
+          			     </td>
+          			     </tr>
+          			      <tr>
+        		         <td>
+          			       <para style="terp_default_9_data_origin">[[ o.source_city_id and o.source_city_id.iata_port_id and o.source_city_id.iata_port_id.location_code[0:3] or '' ]]</para>
+          			     </td>
+          			     </tr>
+          			     </blockTable>
+          			    </td>
+          			    <spacer length="10"/>
+          			     <td>
+        		         <blockTable colWidths="75.0" rowHeights="20,30"  style="Table13">
+        		         <tr>
+        		         <td>
+          			       <para style="terp_default_9"><b>DESTINATION CODE</b></para>
+          			     </td>
+          			     </tr>
+          			      <tr>
+        		         <td>
+          			       <para style="terp_default_9_data_origin">[[ o.dest_city_id and o.dest_city_id.iata_port_id and o.dest_city_id.iata_port_id.location_code[0:3] or '' ]]</para>
+          			     </td>
+          			     </tr>
+          			     </blockTable>
+          			    </td>
+          			    </tr>
+          			    </blockTable>
+          			    <spacer length="20"/>
+          			 <blockTable colWidths="20.0,142.0" style="Table9">
+        			   <tr>
+        		       <td>
+        		          <para style="terp_default_9">8.</para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"><b>SERVICES</b></para>
+        		      </td>
+          			  </tr>
+          			 </blockTable>
+          			 <blockTable colWidths="81.0,81.0" style="Table14">
+        			   <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>Type</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"></para>
+        		      </td>
+          			  </tr>
+          			    <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>Others</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"></para>
+        		      </td>
+          			  </tr>
+          			    <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>Insurance</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"></para>
+        		      </td>
+          			  </tr>
+          			    <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>TOTAL</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"></para>
+        		      </td>
+          			  </tr>
+          			 </blockTable>
+          			 <spacer length="20"/>
+          			  <blockTable colWidths="20.0,142.0" style="Table9">
+        			   <tr>
+        		       <td>
+        		          <para style="terp_default_9">9.</para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"><b>PICK UP DETAILS</b></para>
+        		      </td>
+          			  </tr>
+          			 </blockTable>
+          			
+          			  <blockTable colWidths="81.0,81.0" style="Table14">
+        			   <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>Picked Up By</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"></para>
+        		      </td>
+          			  </tr>
+          			    <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>Date/Time</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"></para>
+        		      </td>
+          			  </tr>
+          			</blockTable>
+          			<spacer length="20"/>
+          			<blockTable colWidths="20.0,142.0" style="Table9">
+        			   <tr>
+        		       <td>
+        		          <para style="terp_default_9">10.</para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"><b>DELIVERY DETAILS</b></para>
+        		      </td>
+          			  </tr>
+          			 </blockTable>
+          			
+          			 <blockTable colWidths="81.0,81.0" style="Table14">
+        			   <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>Received By</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9">[[o.received_by or '']]</para>
+        		      </td>
+          			  </tr>
+          			    <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>Date/Time</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9">[[formatLang(o.act_delivery_date,date=True) ]]</para>
+        		      </td>
+          			  </tr>
+          			   <tr>
+        		       <td>
+        		          <para style="terp_default_9"><b>Signature</b></para>
+        		      </td>
+        		      <td>
+        		          <para style="terp_default_9"></para>
+        		      </td>
+          			  </tr>
+          			</blockTable>
+                </td>
+                </tr>
+          </blockTable>
+          <spacer length="10"/>
+           <blockTable colWidths="550.0" style="Table15">
+           <tr>
+      	         <td>
+       	          <para style="terp_default_5">* PLEASE COMPLETE IN CAPITAL LETTERS</para>
+      		      </td>
+          			  </tr>
+          </blockTable>
+          <spacer length="5"/>
+           <blockTable colWidths="550.0" style="Table1">
+           <tr><td><para style="terp_default_Bold_9"><b>[[o.company_id.name]] BY AIRASIA TERMS AND CONDITIONS OF CARRIAGE("Terms and Conditions")</b></para></td></tr>
+           </blockTable>
+           <blockTable colWidths="275.0,275.0" style="Table1">
+           <tr>
+      	      <td>
+       	          <para style="terp_default_5"><b>1.Customs,Exports and Imports</b></para>
+       	          <para style="terp_default_5">[[o.company_id.name]] BY AIRASIA may perform any of the following activities on Shipper's behalf in order to provide </para>
+                  <para style="terp_default_5">its services to Shipper: (1) complete any documents, amend product or service codes, and pay any </para>
+                  <para style="terp_default_5">duties or taxes required under applicable laws and regulations, (2) act as Shipper's forwarding </para>
+                  <para style="terp_default_5">agent for customs and export control purposes and as Receiver solely for the purpose of </para>
+                  <para style="terp_default_5">designating a customs broker to perform customs clearance and entry and (3) redirect </para>
+                  <para style="terp_default_5">the Shipment to Receiver's import broker or other address upon request by any person who [[o.company_id.name]]</para>
+                  <para style="terp_default_5"> BY AIRASIA believes in its reasonable opinion to be authorised.</para>
+                  <spacer length="5"/>
+                  <para style="terp_default_5"><b> 2. Unacceptable Shipments</b></para>
+                  <para style="terp_default_5">Shipper agrees that its Shipment is acceptable for transportation and is deemed unacceptable if:</para>
+                  <para style="terp_default_5">• it is classified as hazardous material, dangerous goods, prohibited or restricted articles by IATA </para>
+                  <para style="terp_default_5">(International Air Transport Association), ICAO (International Civil Aviation Organisation), any </para>
+                  <para style="terp_default_5">applicable government department or other relevant organisation;</para>
+                  <para style="terp_default_5">• no customs declaration is made when required by applicable customs regulations; or</para>
+                  <para style="terp_default_5">• [[o.company_id.name]] BY AIRASIA decides it cannot transport an item safely or legally (such items include but</para>
+                  <para style="terp_default_5"> are not limited to: dangerous goods, live animals, bearer form negotiable items and instruments, </para>
+                  <para style="terp_default_5">firearms, weapons, fireworks, explosive devices or parts thereof, ammunition, toy guns or any others</para>
+                  <para style="terp_default_5"> resembling firearms and weapons, intoxicating liquors containing any lead or compound of lead, copper </para>
+                  <para style="terp_default_5">or compound of copper, pirated CDs, VCDs and DVDs, bullion, jewellery and objects made of precious </para>
+                  <para style="terp_default_5"> metals and stones, broadcast receivers capable of receiving radio communication within the ranges </para>
+                  <para style="terp_default_5">68-87 MHz and 108-174 MHz, medical samples, perishable items, liquids, bird nest,any article bearing  </para>
+                  <para style="terp_default_5">the imprint or reproduction of any currency note, bank note or coin which are current or have at </para>
+                  <para style="terp_default_5">anytime been issued in any country, human remains or ashes, plants, tobacco, furs and ivory, </para>
+                 <para style="terp_default_5">pornography items,lighters and matches, watches valued at no more than $US 200, costume jewellery valued at no more than $US 200</para>
+                 <spacer length="5"/>
+                 <para style="terp_default_5"><b>3.Deliveries &amp; Undeliverables</b></para>
+                 <para style="terp_default_5">Shipment cannot be delivered to PO boxes or postal codes. Shipments are delivered to the Receiver's </para>
+                 <para style="terp_default_5">address given by Shipper (which in the case of mail services shall be deemed to be the first receiving </para>
+                 <para style="terp_default_5">postal service) but not necessarily to the named Receiver personally. Shipments to addresses with a </para>
+                 <para style="terp_default_5"> central receiving area will be delivered to that area. If Receiver refuses delivery or to pay for  </para>
+                 <para style="terp_default_5">delivery, or the Shipment is deemed to be unacceptable, or it has been undervalued for customs </para>
+                 <para style="terp_default_5">purposes, or Receiver cannot be reasonably identified or located, [[o.company_id.name]] BY AIRASIA shall use  </para>
+                 <para style="terp_default_5">reasonable efforts to return the Shipment to Shipper at Shipper's cost, failing which the Shipment</para>
+                 <para style="terp_default_5">may be released, disposed of or sold by [[o.company_id.name]] BY AIRASIA without incurring any liability whatsoever </para>
+                 <para style="terp_default_5">to Shipper or anyone else, with the proceeds applied against service charges and related administrative</para>
+                 <para style="terp_default_5"> costs and the balance of the proceeds of a sale to be returned to Shipper.</para>
+                 <spacer length="5"/>
+                <para style="terp_default_5"><b>4. Inspection</b></para>
+                <para style="terp_default_5">[[o.company_id.name]] BY AIRASIA has the right to open and inspect a Shipment without prior notice to Shipper.</para>
+                <spacer length="5"/>
+                <para style="terp_default_5"><b>5. Shipment Charges &amp; Billing</b></para>
+                <para style="terp_default_5">[[o.company_id.name]] BY AIRASIA 's Shipment charges are calculated according to the higher of actual or volumetric</para>
+                <para style="terp_default_5">weight and any Shipment may be re-weighed and re-measured by [[o.company_id.name]] BY AIRASIA to confirm this </para>
+                <para style="terp_default_5">.calculation Shipper shall pay or reimburse [[o.company_id.name]] BY AIRASIA for all Shipment charges, storage  </para>
+                <para style="terp_default_5">charges, duties and taxes owed for services provided by [[o.company_id.name]] BY AIRASIA or incurred by [[o.company_id.name]] </para>
+                <para style="terp_default_5">BY AIRASIA on Shipper's or Receiver's or any third party's behalf and all claims, damages, fines </para>
+                <para style="terp_default_5">and expenses incurred if the Shipment is deemed unacceptable for transport as described in Section 2.</para>
+                <spacer length="5"/>
+                <para style="terp_default_5"><b>6.[[o.company_id.name]] BY AIRASIA's Liability</b></para>
+	   	          <para style="terp_default_5">[[o.company_id.name]] BY AIRASIA contracts with Shipper on the basis that [[o.company_id.name]] BY AIRASIA's liability is strictly</para>
+	              <para style="terp_default_5"> limited to direct loss only and to the per kilo limits in this Section 6. All other types of loss or</para>
+	              <para style="terp_default_5"> damage are excluded (including but not limited to lost profits, income, interest, future business),</para>
+	              <para style="terp_default_5"> whether such loss or damage is special or indirect, and even if the risk of such loss or damage was </para>
+	              <para style="terp_default_5">brought to [[o.company_id.name]] BY AIRASIA's attention before or after acceptance of the Shipment since special </para>
+	              <para style="terp_default_5">risks can be insured by Shipper. If a Shipment combines carriage by air, road or other mode of </para>
+      		      <para style="terp_default_5">transport, it shall be presumed that any loss or damage occurred during the air period of such </para>
+	              <para style="terp_default_5">carriage unless proven otherwise. [[o.company_id.name]] BY AIRASIA's liability in respect of any one Shipment</para>
+	              <para style="terp_default_5">transported, without prejudice to Section 7-11 is limited to its actual cash value and shall not </para>
+      		      </td>
+      		      <spacer length="10"/>
+      		      <td>
+	              <para style="terp_default_5">exceed the greater of $US200 or:$US20 / kilogram for Shipments transported by air; or</para>
+	              <para style="terp_default_5">of $US20 / kilogram for Shipments transported by road to a maximum of $US300 / shipment</para>
+	              <para style="terp_default_5">Claims are limited to one claim per Shipment settlement of which will be full and final settlement for</para>
+	              <para style="terp_default_5">all loss or damage in connection therewith. If Shipper regards these limits as insufficient it must make</para>
+	              <para style="terp_default_5"> a special declaration of value and request insurance as described in Clause 8 (*Shipment Insurance) or </para>
+	              <para style="terp_default_5">make its own insurance arrangements, failing which Shipper assumes all risks of loss or damage.</para>
+	              <spacer length="5"/>
+                  <para style="terp_default_5"><b>7.Time Limits for Claims</b></para>
+                  <para style="terp_default_5">All claims must be submitted in writing to [[o.company_id.name]] BY AIRASIA within fourteen (14) days from the date </para>
+                  <para style="terp_default_5">that [[o.company_id.name]] BY AIRASIA accepted the Shipment, failing which [[o.company_id.name]] BY AIRASIA shall have no liability whatsoever.</para>
+                  <spacer length="5"/>
+                  <para style="terp_default_5"><b>8. Shipment Insurance</b></para>
+                  <para style="terp_default_5">[[o.company_id.name]] BY AIRASIA can arrange insurance for Shipper covering the actual cash value in respect of loss of or physical damage to the Shipment, kindly contact our customer service. Shipment insurance does not cover indirect loss or damage, or loss or damage caused by delays.</para>
+                  <spacer length="5"/>
+                  
+                  <para style="terp_default_5"><b>9. Delayed Shipments</b></para>
+                  <para style="terp_default_5">[[o.company_id.name]] BY AIRASIA will make every reasonable effort to deliver the Shipment according to [[o.company_id.name]] BY </para>
+                  <para style="terp_default_5">AIRASIA's regular delivery schedules, but these are not guaranteed and do not form part of the contract. </para>
+                  <para style="terp_default_5"> [[o.company_id.name]] BY AIRASIA is not liable for any damages or loss caused by delays.</para>
+                  <spacer length="5"/>
+                  <para style="terp_default_5"><b>10. Circumstances beyond [[o.company_id.name]] BY AIRASIA's control</b></para>
+                  <para style="terp_default_5">[[o.company_id.name]] BY AIRASIA is not liable for any loss or damage arising out of circumstances beyond [[o.company_id.name]] </para>
+                  <para style="terp_default_5">BY AIRASIA's control. These include but are not limited to: - "Act of God" - e.g. earthquake, cyclone,</para>
+                  <para style="terp_default_5"> storm, flood, fog; "Force Majeure" - e.g. war, plane crash or embargo; any defect or characteristic </para>
+                  <para style="terp_default_5"> related to the nature of the Shipment, even if known to [[o.company_id.name]] BY AIRASIA; riot or civil commotion;  </para>
+                 <para style="terp_default_5">any act or omission by a person not emplyed or contracted by [[o.company_id.name]] BY AIRASIA e.g. Shipper,  </para>
+                 <para style="terp_default_5">Receiver, third party, customs or other government official; industrial action; and electrical</para>
+                 <para style="terp_default_5"> or magnetic damage to, or erasure of, electronic or photographic images, data or recordings.</para>
+                 <spacer length="5"/>
+                 <para style="terp_default_5"><b>11. Shipper's Warranties and Indemnity</b></para>
+                 <para style="terp_default_5">Shipper shall indemnify and hold [[o.company_id.name]] BY AIRASIA harmless for any loss or damage arising out of  </para>
+                 <para style="terp_default_5">Shipper's failure to comply with any applicable laws or regulations and for Shipper's breach of </para>
+                 <para style="terp_default_5"> the following warranties and representations:</para>
+                 <para style="terp_default_5">• all information provided by Shipper or its representatives is complete and accurate;</para>
+                 <para style="terp_default_5">• the Shipment was prepared in secure premises by Shipper or its employees or representatives;</para>
+                 <para style="terp_default_5">• Shipper employed reliable staff or representatives to prepare the Shipment</para>
+                 <para style="terp_default_5">• Shipper protected the Shipment against unauthorised interference during preparation, storage  </para>
+                 <para style="terp_default_5">and transporation to [[o.company_id.name]] BY AIRASIA;</para>
+                 <para style="terp_default_5">• the Shipment is properly marked and addressed and packed to ensure safe transportation with </para>
+                 <para style="terp_default_5">ordinary care in handling;</para>
+                 <para style="terp_default_5">• all applicable customs, import, export and other laws and regulations have been complied with; and</para>
+                 <para style="terp_default_5">• the waybill has been signed by Shipper's authorised representative and the Terms and Conditions </para>
+                 <para style="terp_default_5">constitue binding and enforceable obligations of Shipper.</para>
+                 <spacer length="5"/>
+                 <para style="terp_default_5"><b>12. Routing</b></para>
+                 <para style="terp_default_5">Shipper agrees to all routing and diversion, including the possibility that the Shipment may be carried via intermediate stopping places.</para>
+                 <spacer length="5"/>
+                 <para style="terp_default_5"><b>13. Governing Law</b></para>
+                 <para style="terp_default_5">Any dispute arising under or in any way connected with these Terms and Conditions shall be subject, for the benefit of [[o.company_id.name]] BY AIRASIA, to the non-exclusive jurisdiction of the courts of, and governed by the law of, the country of origin of the Shipment and Shipper irrevocably submits to such jurisdiction, unless contrary to applicable law.</para> 
+                 <spacer length="5"/>
+                 <para style="terp_default_5"><b>14. Severability</b></para>
+                 <para style="terp_default_5">The invalidity or unenforceability of any provision shall not affect any other part of these Terms and Conditions.</para>
+                 <spacer length="5"/>
+                 <para style="terp_default_5"><b>For other Terms &amp; Conditions please refer to our website: www.redboxasia.com</b></para>
+      		      </td>
+          </tr>
+          </blockTable>
+          </section>
+          </section>
+</story>
+</document>
+
