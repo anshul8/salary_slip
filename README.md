@@ -1,2 +1,0 @@
-# salary_slip
-salary
